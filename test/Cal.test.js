@@ -1,6 +1,6 @@
 
 //new
-const stringCalculator = require('./cal');
+const stringCalculator = require('./cal'); 
 
 test('returns 0 for an empty string', () => {
   expect(stringCalculator("")).toBe(0);
